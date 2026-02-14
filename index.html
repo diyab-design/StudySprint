@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StudySprint - Smart Study Session Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>📚 StudySprint</h1>
+    <p>Smart Study Session Planner</p>
+
+    <!-- TASK SECTION -->
+    <section>
+        <h2>Add Study Task</h2>
+        <input type="text" id="taskInput" placeholder="Enter study task">
+        <button id="addTaskBtn">Add Task</button>
+    </section>
+
+    <!-- TASK LIST -->
+    <section>
+        <h2>Your Tasks</h2>
+        <ul id="taskList"></ul>
+    </section>
+
+    <!-- TIMER SECTION -->
+    <section>
+        <h2>Study Timer (25 Minutes)</h2>
+        <h2 id="timerDisplay">25:00</h2>
+        <button id="startBtn">Start</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="resetBtn">Reset</button>
+    </section>
+
+    <!-- PROGRESS SECTION -->
+    <section>
+        <h2>Progress</h2>
+        <h3 id="progressText">0 / 0 Tasks Completed</h3>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
